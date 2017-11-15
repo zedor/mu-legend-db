@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Icarus best server EU</title>
+	<script src="angular.min.js"></script>
+	<script src="angular-animate.min.js"></script>
+	<script src="ui-bootstrap-custom-tpls-2.5.0.min.js"></script>
+	<script src="script.js"></script>
+	<link rel="stylesheet" href="bootstrap.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body ng-app="releaseApp" ng-controller="releaseCtrl" layout="column">
+	<h1>MU Legend Item indexer</h1>
+	<p id="song">Recommended song: <a ng-href="https://www.youtube.com/watch?v={{songs[songID]}}">yt link</a></p>
+	<div class="row">
+		<div class="col-md-5">
+			<p class="input-group">
+				<input type="search" class="form-control" name="titleQuery" ng-model="titleQuery" placeholder="Search title" />
+				<span class="input-group-btn">
+					<button type="button" class="btn btn-default" ng-click="isCollapsed = !isCollapsed">Tags</button>
+				</span>
+			</p>
+		</div>
+	</div>
+	<div uib-collapse="isCollapsed" id="collapseTags">
+		<table class="well well-lg">
+			<tr>
+				<td style="width: 20%"><span ng-repeat="tag in tags" ng-if="$index < 4"><button type="button" class="btn btn-default" ng-click="tagToggle($event, tag)" uib-btn-checkbox>{{tag.name}}</button><br ng-if="($index % 2)" /></span></td>
+				<td style="width: 20%"s><span ng-repeat="tag in tags" ng-if="($index > 3) && ($index < 8)"><button type="button" class="btn btn-default" ng-click="tagToggle($event, tag)" uib-btn-checkbox>{{tag.name}}</button><br ng-if="($index % 2)" /></span></td>
+				<td><span ng-repeat="tag in tags" ng-if="$index > 7"><button type="button" class="btn btn-default" ng-click="tagToggle($event, tag)" uib-btn-checkbox>{{tag.name}}</button></span></td>
+			</tr>
+		</table>
+	</div>
+	<div class="tbl-header">
+		<table cellpadding="0" cellspacing="0" border="0">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th id="imSpecial">Tags</th>
+					<th>Attributes</th>
+				</tr>
+			</thead>
+		</table>
+	</div>
+	<div class="tbl-content" ng-stretch>
+		<table cellpadding="0" cellspacing="0" border="0">
+			<tbody>
+				<tr class="animate-repeat" ng-repeat="x in data | proFilter:'name':titleQuery:tags:'toggle' | limitTo:100 as results">
+					<td>{{x.name}}</td>
+					<td><ul style="margin-bottom: 0px"><li ng-repeat="y in x.tags">{{y.tag}}</li></ul></td>
+					<td><ul style="margin-bottom: 0px; margin-left: -30px"><li ng-repeat="(key, value) in x.stats">{{key}}: {{value}}</li></ul></td>
+				</tr>
+				<li class="animate-repeat" id="resultsPls" ng-if="results.length === 0">
+      				<strong>Nothing</strong>
+    			</li>
+			</tbody>
+		</table>
+	</div>
+</body>
+</html>

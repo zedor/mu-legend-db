@@ -1,0 +1,40 @@
+{
+	"1": {
+		"name": "Grace Ring",
+		"tags": [{
+				"tag": "Any"
+			},
+			{
+				"tag": "Ring"
+			},
+			{
+				"tag": "Ancient"
+			}
+		],
+		"stats": {
+			"Defense Penetration": "+4.0%",
+			"HP": "+4,455",
+			"Undead Bonus Damage": "???",
+			"Non-fixed affixes": "1"
+		}
+	},
+	"2": {
+		"name": "Gargoyle Hide Sleeves",
+		"tags": [{
+				"tag": "Whisperer"
+			},
+			{
+				"tag": "Gloves"
+			},
+			{
+				"tag": "Mythic"
+			}
+		],
+		"stats": {
+			"Defense Penetration": "+5.0%",
+			"Attack": "+135",
+			"Non-fixed affixes": "2"
+		}
+	}
+
+}
