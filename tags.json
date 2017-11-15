@@ -61,4 +61,7 @@
 }, {
 	"name": "Ring",
 	"toggle": 0
+}, {
+	"name": "Crafted",
+	"toggle": 0
 }]

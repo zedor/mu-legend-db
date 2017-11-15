@@ -35,6 +35,199 @@
 			"Attack": "+135",
 			"Non-fixed affixes": "2"
 		}
+	},
+	"3": {
+		"name": "Ancients' Wing Gun",
+		"tags": [{
+				"tag": "Whisperer"
+			},
+			{
+				"tag": "One-handed Weapon"
+			},
+			{
+				"tag": "Ancient"
+			}
+		],
+		"stats": {
+			"Cooldown Reduction": "+4.0%",
+			"Attack": "+65",
+			"Non-fixed affixes": "1"
+		}
+	},
+	"4": {
+		"name": "Dragon Hunter Wing Gun",
+		"tags": [{
+				"tag": "Whisperer"
+			},
+			{
+				"tag": "One-handed Weapon"
+			},
+			{
+				"tag": "Ancient"
+			}
+		],
+		"stats": {
+			"Non-fixed affixes": "3"
+		}
+	},
+	"5": {
+		"name": "Brutal Glasha's Brogans",
+		"tags": [{
+				"tag": "Whisperer"
+			},
+			{
+				"tag": "Shoes"
+			},
+			{
+				"tag": "Ancient"
+			},
+			{
+				"tag": "Crafted"
+			}
+		],
+		"stats": {
+			"Non-fixed affixes": "3"
+		}
+	},
+	"6": {
+		"name": "Protection Ring",
+		"tags": [{
+				"tag": "Any"
+			},
+			{
+				"tag": "Ring"
+			},
+			{
+				"tag": "Ancient"
+			},
+			{
+				"tag": "Crafted"
+			}
+		],
+		"stats": {
+			"All Damage Reduction":"+1.50%",
+			"Non-fixed affixes": "3"
+		}
+	},
+	"7": {
+		"name": "Sturdy Elyraq's Tunic",
+		"tags": [{
+				"tag": "Whisperer"
+			},
+			{
+				"tag": "Chest"
+			},
+			{
+				"tag": "Ancient"
+			},
+			{
+				"tag": "Crafted"
+			}
+		],
+		"stats": {
+			"All Damage Reduction":"+1.40%",
+			"Non-fixed affixes": "2"
+		}
+	},
+	"8": {
+		"name": "Dignified Orman's Tights",
+		"tags": [{
+				"tag": "Whisperer"
+			},
+			{
+				"tag": "Pants"
+			},
+			{
+				"tag": "Ancient"
+			},
+			{
+				"tag": "Crafted"
+			}
+		],
+		"stats": {
+			"All Damage Reduction":"+1.40%",
+			"Non-fixed affixes": "2"
+		}
+	},
+	"9": {
+		"name": "Sturdy Elyraq's Sleeves",
+		"tags": [{
+				"tag": "Whisperer"
+			},
+			{
+				"tag": "Pants"
+			},
+			{
+				"tag": "Ancient"
+			},
+			{
+				"tag": "Crafted"
+			}
+		],
+		"stats": {
+			"Defense Penetration":"+3.50%",
+			"Non-fixed affixes": "2"
+		}
+	},
+	"10": {
+		"name": "Karol Kingdom Headband",
+		"tags": [{
+				"tag": "Whisperer"
+			},
+			{
+				"tag": "Helm"
+			},
+			{
+				"tag": "Mythic"
+			}
+		],
+		"stats": {
+			"Elite/Boss Monster Attack":"+20.00%",
+			"Non-fixed affixes": "2"
+		}
+	},
+	"11": {
+		"name": "Brutal Glasha's Epaulettes",
+		"tags": [{
+				"tag": "Whisperer"
+			},
+			{
+				"tag": "Pants"
+			},
+			{
+				"tag": "Ancient"
+			},
+			{
+				"tag": "Crafted"
+			}
+		],
+		"stats": {
+			"Non-fixed affixes": "3"
+		}
+	},
+	"12": {
+		"name": "Rugard's Light Epaulettes",
+		"tags": [{
+				"tag": "Whisperer"
+			},
+			{
+				"tag": "Pants"
+			},
+			{
+				"tag": "Set"
+			}
+		],
+		"stats": {
+			"Non-fixed affixes": "3"
+		}
 	}
 
 }
+
+"All Damage Reduction":"",
+"Defense Penetration":"",
+"Elite/Boss Monster Attack":"",
+"Cooldown Reduction": "",
+"Attack": "",
+"HP": "",
+"Undead Bonus Damage": "",
