@@ -23,16 +23,16 @@
 	"name": "Unique",
 	"toggle": 0
 }, {
-	"name": "Two Handed Weapon",
+	"name": "Main Weapon",
 	"toggle": 0
 }, {
-	"name": "Mainhand Weapon",
+	"name": "Secondary Weapon",
 	"toggle": 0
 }, {
-	"name": "One Handed Weapon",
+	"name": "Two-handed Weapon",
 	"toggle": 0
 }, {
-	"name": "Something Else",
+	"name": "One-handed Weapon",
 	"toggle": 0
 }, {
 	"name": "Helm",
