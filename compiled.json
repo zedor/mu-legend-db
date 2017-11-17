@@ -1,225 +1,833 @@
+[
 {
-	"1": {
-		"name": "Grace Ring",
-		"tags": [{
-				"tag": "Any"
-			},
-			{
-				"tag": "Ring"
-			},
-			{
-				"tag": "Ancient"
-			}
-		],
-		"stats": {
-			"Defense Penetration": "+4.0%",
-			"HP": "+4,455",
-			"Undead Bonus Damage": "???",
-			"Non-fixed affixes": "1"
-		}
-	},
-	"2": {
-		"name": "Gargoyle Hide Sleeves",
-		"tags": [{
-				"tag": "Whisperer"
-			},
-			{
-				"tag": "Gloves"
-			},
-			{
-				"tag": "Mythic"
-			}
-		],
-		"stats": {
-			"Defense Penetration": "+5.0%",
-			"Attack": "+135",
-			"Non-fixed affixes": "1"
-		}
-	},
-	"3": {
-		"name": "Ancients' Wing Gun",
-		"tags": [{
-				"tag": "Whisperer"
-			},
-			{
-				"tag": "One-handed Weapon"
-			},
-			{
-				"tag": "Ancient"
-			}
-		],
-		"stats": {
-			"Cooldown Reduction": "+4.0%",
-			"Attack": "+65",
-			"Non-fixed affixes": "1"
-		}
-	},
-	"4": {
-		"name": "Dragon Hunter Wing Gun",
-		"tags": [{
-				"tag": "Whisperer"
-			},
-			{
-				"tag": "One-handed Weapon"
-			},
-			{
-				"tag": "Ancient"
-			}
-		],
-		"stats": {
-			"Non-fixed affixes": "3"
-		}
-	},
-	"5": {
-		"name": "Brutal Glasha's Brogans",
-		"tags": [{
-				"tag": "Whisperer"
-			},
-			{
-				"tag": "Shoes"
-			},
-			{
-				"tag": "Ancient"
-			},
-			{
-				"tag": "Crafted"
-			}
-		],
-		"stats": {
-			"Non-fixed affixes": "3"
-		}
-	},
-	"6": {
-		"name": "Protection Ring",
-		"tags": [{
-				"tag": "Any"
-			},
-			{
-				"tag": "Ring"
-			},
-			{
-				"tag": "Ancient"
-			},
-			{
-				"tag": "Crafted"
-			}
-		],
-		"stats": {
-			"All Damage Reduction":"+1.50%",
-			"Non-fixed affixes": "3"
-		}
-	},
-	"7": {
-		"name": "Sturdy Elyraq's Tunic",
-		"tags": [{
-				"tag": "Whisperer"
-			},
-			{
-				"tag": "Chest"
-			},
-			{
-				"tag": "Ancient"
-			},
-			{
-				"tag": "Crafted"
-			}
-		],
-		"stats": {
-			"All Damage Reduction":"+1.40%",
-			"Non-fixed affixes": "2"
-		}
-	},
-	"8": {
-		"name": "Dignified Orman's Tights",
-		"tags": [{
-				"tag": "Whisperer"
-			},
-			{
-				"tag": "Pants"
-			},
-			{
-				"tag": "Ancient"
-			},
-			{
-				"tag": "Crafted"
-			}
-		],
-		"stats": {
-			"All Damage Reduction":"+1.40%",
-			"Non-fixed affixes": "2"
-		}
-	},
-	"9": {
-		"name": "Sturdy Elyraq's Sleeves",
-		"tags": [{
-				"tag": "Whisperer"
-			},
-			{
-				"tag": "Pants"
-			},
-			{
-				"tag": "Ancient"
-			},
-			{
-				"tag": "Crafted"
-			}
-		],
-		"stats": {
-			"Defense Penetration":"+3.50%",
-			"Non-fixed affixes": "2"
-		}
-	},
-	"10": {
-		"name": "Karol Kingdom Headband",
-		"tags": [{
-				"tag": "Whisperer"
-			},
-			{
-				"tag": "Helm"
-			},
-			{
-				"tag": "Mythic"
-			}
-		],
-		"stats": {
-			"Elite/Boss Monster Attack":"+20.00%",
-			"Non-fixed affixes": "2"
-		}
-	},
-	"11": {
-		"name": "Brutal Glasha's Epaulettes",
-		"tags": [{
-				"tag": "Whisperer"
-			},
-			{
-				"tag": "Pants"
-			},
-			{
-				"tag": "Ancient"
-			},
-			{
-				"tag": "Crafted"
-			}
-		],
-		"stats": {
-			"Non-fixed affixes": "3"
-		}
-	},
-	"12": {
-		"name": "Rugard's Light Epaulettes",
-		"tags": [{
-				"tag": "Whisperer"
-			},
-			{
-				"tag": "Pants"
-			},
-			{
-				"tag": "Set"
-			}
-		],
-		"stats": {
-			"Non-fixed affixes": "3"
-		}
-	}
-
+    "name": "Faded Kaizel's Wing Gun",
+    "tags": [
+  "Whisperer",
+  "Ancient",
+  "One-handed Weapon",
+  "Crafted"
+],
+    "stats": [
+  {
+    "name": "Defense Penetration",
+    "value": "+3.50%"
+  },
+  {
+    "name": "Unfixed affixes",
+    "value": "2"
+  }
+]
+}, {
+    "name": "Intense Lucky Stone Wing Gun",
+    "tags": [
+  "Whisperer",
+  "Ancient",
+  "One-handed Weapon",
+  "Crafted"
+],
+    "stats": [
+  {
+    "name": "Unfixed affixes",
+    "value": "3"
+  }
+]
+}, {
+    "name": "Sharp Kaizel's Wing Gun",
+    "tags": [
+  "Whisperer",
+  "Unique",
+  "One-handed Weapon",
+  "Crafted"
+],
+    "stats": [
+  {
+    "name": "Defense Penetration",
+    "value": "+4.50%"
+  },
+  {
+    "name": "Unfixed affixes",
+    "value": "2"
+  }
+]
+}, {
+    "name": "Solid Targash's Bow",
+    "tags": [
+  "Whisperer",
+  "Ancient",
+  "Two-handed Weapon",
+  "Crafted"
+],
+    "stats": [
+  {
+    "name": "Defense Penetration",
+    "value": "+7.00%"
+  },
+  {
+    "name": "Unfixed affixes",
+    "value": "2"
+  }
+]
+}, {
+    "name": "Intense Lucky Stone Bow",
+    "tags": [
+  "Whisperer",
+  "Ancient",
+  "Two-handed Weapon",
+  "Crafted"
+],
+    "stats": [
+  {
+    "name": "Unfixed affixes",
+    "value": "3"
+  }
+]
+}, {
+    "name": "Crimson Targash's Bow",
+    "tags": [
+  "Whisperer",
+  "Unique",
+  "Two-handed Weapon",
+  "Crafted"
+],
+    "stats": [
+  {
+    "name": "Defense Penetration",
+    "value": "+9.00%"
+  },
+  {
+    "name": "Unfixed affixes",
+    "value": "2"
+  }
+]
+}, {
+    "name": "Sturdy Elyraq's Tunic",
+    "tags": [
+  "Whisperer",
+  "Ancient",
+  "Chest",
+  "Crafted"
+],
+    "stats": [
+  {
+    "name": "All Damage Reduction",
+    "value": "+1.40%"
+  },
+  {
+    "name": "Unfixed affixes",
+    "value": "2"
+  }
+]
+}, {
+    "name": "Intense Lucky Stone Tunic",
+    "tags": [
+  "Whisperer",
+  "Ancient",
+  "Chest",
+  "Crafted"
+],
+    "stats": [
+  {
+    "name": "Unfixed affixes",
+    "value": "3"
+  }
+]
+}, {
+    "name": "Sharp Kaizel's Tunic",
+    "tags": [
+  "Whisperer",
+  "Mythic",
+  "Chest",
+  "Crafted"
+],
+    "stats": [
+  {
+    "name": "All Damage Reduction",
+    "value": "+1.90%"
+  },
+  {
+    "name": "Unfixed affixes",
+    "value": "2"
+  }
+]
+}, {
+    "name": "Dignified Orman's Tights",
+    "tags": [
+  "Whisperer",
+  "Ancient",
+  "Pants",
+  "Crafted"
+],
+    "stats": [
+  {
+    "name": "All Damage Reduction",
+    "value": "+1.40%"
+  },
+  {
+    "name": "Unfixed affixes",
+    "value": "2"
+  }
+]
+}, {
+    "name": "Intense Lucky Stone Tights",
+    "tags": [
+  "Whisperer",
+  "Ancient",
+  "Pants",
+  "Crafted"
+],
+    "stats": [
+  {
+    "name": "Unfixed affixes",
+    "value": "3"
+  }
+]
+}, {
+    "name": "Crimson Targash's Tights",
+    "tags": [
+  "Whisperer",
+  "Mythic",
+  "Pants",
+  "Crafted"
+],
+    "stats": [
+  {
+    "name": "All Damage Reduction",
+    "value": "+1.90%"
+  },
+  {
+    "name": "Unfixed affixes",
+    "value": "3"
+  }
+]
+}, {
+    "name": "Dignified Orman's Headband",
+    "tags": [
+  "Whisperer",
+  "Ancient",
+  "Helm",
+  "Crafted"
+],
+    "stats": [
+  {
+    "name": "Cooldown Reduction",
+    "value": "+3.50%"
+  },
+  {
+    "name": "Unfixed affixes",
+    "value": "2"
+  }
+]
+}, {
+    "name": "Intense Lucky Stone Headband",
+    "tags": [
+  "Whisperer",
+  "Ancient",
+  "Helm",
+  "Crafted"
+],
+    "stats": [
+  {
+    "name": "Unfixed affixes",
+    "value": "3"
+  }
+]
+}, {
+    "name": "Burning Orman's Headband",
+    "tags": [
+  "Whisperer",
+  "Mythic",
+  "Helm",
+  "Crafted"
+],
+    "stats": [
+  {
+    "name": "Cooldown Reduction",
+    "value": "+4.50%"
+  },
+  {
+    "name": "Unfixed affixes",
+    "value": "2"
+  }
+]
+}, {
+    "name": "Brutal Glasha's Epaulettes",
+    "tags": [
+  "Whisperer",
+  "Ancient",
+  "Shoulders",
+  "Crafted"
+],
+    "stats": [
+  {
+    "name": "Unfixed affixes",
+    "value": "3"
+  }
+]
+}, {
+    "name": "Intense Lucky Stone Epaulettes",
+    "tags": [
+  "Whisperer",
+  "Ancient",
+  "Shoulders",
+  "Crafted"
+],
+    "stats": [
+  {
+    "name": "Unfixed affixes",
+    "value": "3"
+  }
+]
+}, {
+    "name": "Crimson Targash's Epaulettes",
+    "tags": [
+  "Whisperer",
+  "Mythic",
+  "Shoulders",
+  "Crafted"
+],
+    "stats": [
+  {
+    "name": "Unfixed affixes",
+    "value": "3"
+  }
+]
+}, {
+    "name": "Sturdy Elyraq's Sleeves",
+    "tags": [
+  "Whisperer",
+  "Ancient",
+  "Gloves",
+  "Crafted"
+],
+    "stats": [
+  {
+    "name": "Defense Penetration",
+    "value": "+3.50%"
+  },
+  {
+    "name": "Unfixed affixes",
+    "value": "2"
+  }
+]
+}, {
+    "name": "Intense Lucky Stone Sleeves",
+    "tags": [
+  "Whisperer",
+  "Ancient",
+  "Gloves",
+  "Crafted"
+],
+    "stats": [
+  {
+    "name": "Unfixed affixes",
+    "value": "3"
+  }
+]
+}, {
+    "name": "Evil Elyraq's Sleeves",
+    "tags": [
+  "Whisperer",
+  "Mythic",
+  "Gloves",
+  "Crafted"
+],
+    "stats": [
+  {
+    "name": "Defense Penetration",
+    "value": "+4.50%"
+  },
+  {
+    "name": "Unfixed affixes",
+    "value": "2"
+  }
+]
+}, {
+    "name": "Brutal Glasha's Brogans",
+    "tags": [
+  "Whisperer",
+  "Ancient",
+  "Shoes",
+  "Crafted"
+],
+    "stats": [
+  {
+    "name": "Unfixed affixes",
+    "value": "3"
+  }
+]
+}, {
+    "name": "Intense Lucky Stone Brogans",
+    "tags": [
+  "Whisperer",
+  "Ancient",
+  "Shoes",
+  "Crafted"
+],
+    "stats": [
+  {
+    "name": "Unfixed affixes",
+    "value": "3"
+  }
+]
+}, {
+    "name": "Gleaming Glasha's Brogans",
+    "tags": [
+  "Whisperer",
+  "Mythic",
+  "Shoes",
+  "Crafted"
+],
+    "stats": [
+  {
+    "name": "Unfixed affixes",
+    "value": "3"
+  }
+]
+}, {
+    "name": "Solid Targash's Necklace",
+    "tags": [
+  "Whisperer",
+  "Ancient",
+  "Necklace",
+  "Crafted"
+],
+    "stats": [
+  {
+    "name": "Cooldown Reduction",
+    "value": "+4.0%"
+  },
+  {
+    "name": "Unfixed affixes",
+    "value": "3"
+  }
+]
+}, {
+    "name": "Crimson Targash's Necklace",
+    "tags": [
+  "Whisperer",
+  "Mythic",
+  "Necklace",
+  "Crafted"
+],
+    "stats": [
+  {
+    "name": "Cooldown Reduction",
+    "value": "+5.0%"
+  },
+  {
+    "name": "Unfixed affixes",
+    "value": "3"
+  }
+]
+}, {
+    "name": "Solid Targash's Earrings",
+    "tags": [
+  "Any",
+  "Ancient",
+  "Earring",
+  "Crafted"
+],
+    "stats": [
+  {
+    "name": "Critical Damage",
+    "value": "+12.00%"
+  },
+  {
+    "name": "Unfixed affixes",
+    "value": "3"
+  }
+]
+}, {
+    "name": "Crimson Targash's Earrings",
+    "tags": [
+  "Any",
+  "Mythic",
+  "Earring",
+  "Crafted"
+],
+    "stats": [
+  {
+    "name": "Critical Damage",
+    "value": "+15.00%"
+  },
+  {
+    "name": "Unfixed affixes",
+    "value": "3"
+  }
+]
+}, {
+    "name": "Faded Kaizel's Ring",
+    "tags": [
+  "Any",
+  "Ancient",
+  "Ring",
+  "Crafted"
+],
+    "stats": [
+  {
+    "name": "Defense Penetration",
+    "value": "+4.00%"
+  },
+  {
+    "name": "Unfixed affixes",
+    "value": "3"
+  }
+]
+}, {
+    "name": "Sharp Kaizel's Ring",
+    "tags": [
+  "Any",
+  "Mythic",
+  "Ring",
+  "Crafted"
+],
+    "stats": [
+  {
+    "name": "Defense Penetration",
+    "value": "+5.00%"
+  },
+  {
+    "name": "Unfixed affixes",
+    "value": "3"
+  }
+]
+}, {
+    "name": "Overwhelming Life Ring",
+    "tags": [
+  "Any",
+  "Mythic",
+  "Ring",
+  "Crafted"
+],
+    "stats": [
+  {
+    "name": "HP",
+    "value": "+4,950"
+  },
+  {
+    "name": "HP(%)",
+    "value": "+10.00%"
+  },
+  {
+    "name": "Attack(%)",
+    "value": "+5.00%"
+  },
+  {
+    "name": "Unfixed affixes",
+    "value": "1"
+  }
+]
+}, {
+    "name": "Lost Dragon Fang",
+    "tags": [
+  "Blader",
+  "Mythic",
+  "One-handed Weapon"
+],
+    "stats": [
+  {
+    "name": "Attack",
+    "value": "+108"
+  },
+  {
+    "name": "Defense Penetration",
+    "value": "+5.00%"
+  },
+  {
+    "name": "Unfixed affixes",
+    "value": "1"
+  }
+]
+}, {
+    "name": "Lost Resurrection Grimoire",
+    "tags": [
+  "War Mage",
+  "Mythic",
+  "Secondary Weapon"
+],
+    "stats": [
+  {
+    "name": "Attack",
+    "value": "+108"
+  },
+  {
+    "name": "Defense Penetration",
+    "value": "+5.00%"
+  },
+  {
+    "name": "Unfixed affixes",
+    "value": "1"
+  }
+]
+}, {
+    "name": "Dragon Knight Scepter",
+    "tags": [
+  "Dark Lord",
+  "Mythic",
+  "Main Weapon"
+],
+    "stats": [
+  {
+    "name": "HP",
+    "value": "+4,950"
+  },
+  {
+    "name": "Shield Block Rate",
+    "value": "+10.00%"
+  },
+  {
+    "name": "Unfixed affixes",
+    "value": "1"
+  }
+]
+}, {
+    "name": "Bloodletting Destroyer",
+    "tags": [
+  "Dark Lord",
+  "Mythic",
+  "Main Weapon"
+],
+    "stats": [
+  {
+    "name": "Defense Penetration",
+    "value": "+5.00%"
+  },
+  {
+    "name": "Defense Penetration",
+    "value": "+5.00%"
+  },
+  {
+    "name": "Unfixed affixes",
+    "value": "1"
+  }
+]
+}, {
+    "name": "Bloodstained Robe",
+    "tags": [
+  "War Mage",
+  "Mythic",
+  "Chest"
+],
+    "stats": [
+  {
+    "name": "Elite/Boss Monster Attack",
+    "value": "+20.00%"
+  },
+  {
+    "name": "All Damage Reduction",
+    "value": "+2.00%"
+  },
+  {
+    "name": "Unfixed affixes",
+    "value": "1"
+  }
+]
+}, {
+    "name": "Lost Magic Shoulder Cover",
+    "tags": [
+  "War Mage",
+  "Mythic",
+  "Shoulders"
+],
+    "stats": [
+  {
+    "name": "Attack",
+    "value": "+135"
+  },
+  {
+    "name": "MP Cost Reduction",
+    "value": "+5.00%"
+  },
+  {
+    "name": "Unfixed affixes",
+    "value": "1"
+  }
+]
+}, {
+    "name": "Mediah Magic Association Pants",
+    "tags": [
+  "War Mage",
+  "Mythic",
+  "Pants"
+],
+    "stats": [
+  {
+    "name": "HP",
+    "value": "+4,950"
+  },
+  {
+    "name": "Cooldown Reduction",
+    "value": "+5.00%"
+  }
+]
+}, {
+    "name": "Dragon Pattern Gloves",
+    "tags": [
+  "War Mage",
+  "Ancient",
+  "Gloves"
+],
+    "stats": [
+  {
+    "name": "Critical Damage",
+    "value": "+12.00%"
+  },
+  {
+    "name": "Critical Rate",
+    "value": "+4.00%"
+  },
+  {
+    "name": "Unfixed affixes",
+    "value": "1"
+  }
+]
+}, {
+    "name": "Unknown Leather Shoes",
+    "tags": [
+  "War Mage",
+  "Ancient",
+  "Shoes"
+],
+    "stats": [
+  {
+    "name": "HP(%)",
+    "value": "+8.00%"
+  },
+  {
+    "name": "Movement Speed",
+    "value": "+8.00%"
+  },
+  {
+    "name": "Unfixed affixes",
+    "value": "1"
+  }
+]
+}, {
+    "name": "Karol Kingdom Headband",
+    "tags": [
+  "Whisperer",
+  "Mythic",
+  "Helm"
+],
+    "stats": [
+  {
+    "name": "Elite/Boss Monster Attack",
+    "value": "+20.00%"
+  },
+  {
+    "name": "Unfixed affixes",
+    "value": "1"
+  }
+]
+}, {
+    "name": "Mediah Magic Association Earrings",
+    "tags": [
+  "Any",
+  "Mythic",
+  "Earring"
+],
+    "stats": [
+  {
+    "name": "Cooldown Reduction",
+    "value": "+5.00%"
+  },
+  {
+    "name": "MP Cost Reduction",
+    "value": "+5.00%"
+  },
+  {
+    "name": "Unfixed affixes",
+    "value": "2"
+  }
+]
+}, {
+    "name": "Balance Sleeves",
+    "tags": [
+  "Whisperer",
+  "Ancient",
+  "Gloves"
+],
+    "stats": [
+  {
+    "name": "HP",
+    "value": "+4,455"
+  },
+  {
+    "name": "Attack",
+    "value": "+81"
+  },
+  {
+    "name": "Unfixed affixes",
+    "value": "1"
+  }
+]
+}, {
+    "name": "Dragon Wings Ornate Wing Gun",
+    "tags": [
+  "Whisperer",
+  "Mythic",
+  "One-handed Weapon"
+],
+    "stats": [
+  {
+    "name": "Attack",
+    "value": "+108"
+  },
+  {
+    "name": "Cooldown Reduction",
+    "value": "+5.00%"
+  },
+  {
+    "name": "Unfixed affixes",
+    "value": "1"
+  }
+]
+}, {
+    "name": "Lost Dragon Eye",
+    "tags": [
+  "Any",
+  "Mythic",
+  "Earring"
+],
+    "stats": [
+  {
+    "name": "HP(%)",
+    "value": "+10.00%"
+  },
+  {
+    "name": "Elite/Boss Monster Attack",
+    "value": "+20.00%"
+  },
+  {
+    "name": "Evasion Rate",
+    "value": "+5.00%"
+  },
+  {
+    "name": "Unfixed affixes",
+    "value": "1"
+  }
+]
+}, {
+    "name": "Elemental Blessing Sleeves",
+    "tags": [
+  "Whisperer",
+  "Mythic",
+  "Gloves"
+],
+    "stats": [
+  {
+    "name": "HP",
+    "value": "+4,950"
+  },
+  {
+    "name": "Attack",
+    "value": "+135"
+  },
+  {
+    "name": "Unfixed affixes",
+    "value": "1"
+  }
+]
 }
+
+]

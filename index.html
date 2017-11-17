@@ -21,6 +21,7 @@
 				<input type="search" class="form-control" name="titleQuery" ng-model="titleQuery" placeholder="Search title" />
 				<span class="input-group-btn">
 					<button type="button" class="btn btn-default" ng-click="isCollapsed = !isCollapsed">Tags</button>
+					<button type="button" class="btn btn-default" onclick="location.href='./add/index.html';" >Add Item</button>
 				</span>
 			</p>
 		</div>
@@ -50,8 +51,8 @@
 			<tbody>
 				<tr class="animate-repeat" ng-repeat="x in data | proFilter:'name':titleQuery:tags:'toggle' | limitTo:100 as results">
 					<td>{{x.name}}</td>
-					<td><ul style="margin-bottom: 0px"><li ng-repeat="y in x.tags">{{y.tag}}</li></ul></td>
-					<td><ul style="margin-bottom: 0px; margin-left: -30px"><li ng-repeat="(key, value) in x.stats">{{key}}: {{value}}</li></ul></td>
+					<td><ul style="margin-bottom: 0px"><li ng-repeat="y in x.tags">{{y}}</li></ul></td>
+					<td><ul style="margin-bottom: 0px; margin-left: -30px"><li ng-repeat="y in x.stats">{{y.name}}: {{y.value}}</li></ul></td>
 				</tr>
 				<li class="animate-repeat" id="resultsPls" ng-if="results.length === 0">
       				<strong>Nothing</strong>

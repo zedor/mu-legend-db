@@ -57,6 +57,10 @@ td {
     color: #666;
     border-bottom: solid 1px rgba(0, 0, 0, 0.1);
 }
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
 .well {
     min-height: 20px;
     padding: 19px;

@@ -3,7 +3,7 @@ releaseApp.controller('releaseCtrl', function($scope, $http, $filter) {
     $scope.data = [];
     $scope.titleQuery = '';
     $http.get('compiled.json').then(function(response) {
-        $scope.data = $scope.sortMe(response.data, 'name', true);
+        $scope.data = $scope.sortMe(response.data, 'name', false);
     });
     $scope.isCollapsed = true;
     $scope.resetHeight = false;
@@ -77,13 +77,12 @@ releaseApp.filter('proFilter', ['$filter', function($filter) {
                 for (j = 0; j < items[i]['tags'].length; j++) {
                     for (k = 0;
                         (k < notHave.length) && (notHavePass); k++) {
-                        if (items[i]['tags'][j]['tag'] == notHave[k]) notHavePass = false;
+                        if (items[i]['tags'][j] == notHave[k]) notHavePass = false;
                     };
                     if (notHavePass) {
                         for (k = 0; k < toHave.length; k++) {
-                            console.log(items[i]['tags'][j]['tag']);
-                            if (items[i]['tags'][j]['tag'] == "Any" && (toHave[k]=="Dark Lord" || toHave[k]=="Blader" || toHave[k]=="War Mage" || toHave[k]=="Whisperer")) toHaveCount++;
-                            else if (items[i]['tags'][j]['tag'] == toHave[k]) toHaveCount++;
+                            if (items[i]['tags'][j] == "Any" && (toHave[k]=="Dark Lord" || toHave[k]=="Blader" || toHave[k]=="War Mage" || toHave[k]=="Whisperer")) toHaveCount++;
+                            else if (items[i]['tags'][j] == toHave[k]) toHaveCount++;
                         };
                     };
                 };

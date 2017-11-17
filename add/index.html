@@ -1,0 +1,131 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+	<script src="script.js"></script>
+</head>
+<body ng-app="releaseApp" ng-controller="releaseCtrl">
+<div>
+<button ng-click="resetItem()">Reset Item</button>
+  	<button ng-click="checkItem()" ng-if="data.canFinalize" >Finalize Item</button>
+    {{ errors.error0 }} {{ errors.error1 }} {{ errors.error2 }} {{ errors.error3 }} {{ errors.error4 }} {{ errors.error5 }} {{ errors.error6 }} {{ data.itemPushed }}
+    <br><hr>
+<span ng-if="data.canEdit">
+Name: <input type="text" data-ng-model="data.item.name" ng-change="changeName()" /><br/>
+<table>
+<tbody>
+<tr><td>
+  <form name="myForm">
+    <select style="height:500px " name="tagSelect" id="tagSelect" ng-model="data.tagSelect" ng-change="changeOptions()" multiple>
+      <option value="Any">Any</option>
+      <option value="Blader">Blader</option>
+      <option value="Dark Lord">Dark Lord</option>
+      <option value="War Mage">War Mage</option>
+      <option value="Whisperer">Whisperer</option>
+      <option disabled>──────────</option>
+      <option value="Ancient">Ancient</option>
+      <option value="Mythic">Mythic</option>
+      <option value="Set">Set</option>
+      <option value="Unique">Unique</option>
+      <option disabled>──────────</option>
+      <option value="Main Weapon">Main Weapon</option>
+      <option value="Secondary Weapon">Secondary Weapon</option>
+      <option value="Two-handed Weapon">Two-handed Weapon</option>
+      <option value="One-handed Weapon">One-handed Weapon</option>
+      <option value="Helm">Helm</option>
+      <option value="Chest">Chest</option>
+      <option value="Pants">Pants</option>
+      <option value="Shoulders">Shoulders</option>
+      <option value="Gloves">Gloves</option>
+      <option value="Shoes">Shoes</option>
+      <option value="Necklace">Necklace</option>
+      <option value="Earring">Earring</option>
+      <option value="Ring">Ring</option>
+      <option disabled>──────────</option>
+      <option value="Crafted">Crafted</option>
+    </select>
+    <select style="height:500px " name="statSelect" id="statSelect" ng-model="data.statSelect" ng-change="changeAffix()" multiple>
+      <option ng-value="{name:'HP', value:''}">HP</option>
+      <option ng-value="{name:'HP(%)', value:''}">HP(%)</option>
+      <option ng-value="{name:'HP Recovery per Second', value:''}">HP Recovery per Second</option>
+      <option ng-value="{name:'Attack', value:''}">Attack</option>
+      <option ng-value="{name:'Attack(%)', value:''}">Attack(%)</option>
+      <option ng-value="{name:'Elite/Boss Monster Attack', value:''}">Elite/Boss Monster Attack(%)</option>
+      <option ng-value="{name:'Elite/Boss Damage Reduction', value:''}">Elite/Boss Damage Reduction(%)</option>
+      <option ng-value="{name:'All Damage Reduction', value:''}">All Damage Reduction(%)</option>
+      <option ng-value="{name:'Accuracy', value:''}">Accuracy(%)</option>
+      <option ng-value="{name:'Attack Speed', value:''}">Attack Speed(%)</option>
+      <option ng-value="{name:'Movement Speed', value:''}">Movement Speed(%)</option>
+      <option ng-value="{name:'Evasion Rate', value:''}">Evasion Rate(%)</option>
+      <option ng-value="{name:'Cooldown Reduction', value:''}">Cooldown Reduction(%)</option>
+      <option ng-value="{name:'MP Cost Reduction', value:''}">MP Cost Reduction(%)</option>
+      <option ng-value="{name:'Defense Penetration', value:''}">Defense Penetration(%)</option>
+      <option ng-value="{name:'Shield Block Rate', value:''}">Shield Block Rate(%)</option>
+      <option ng-value="{name:'Critical Damage', value:''}">Critical Damage(%)</option>
+      <option ng-value="{name:'Critical Rate', value:''}">Critical Rate(%)</option>
+
+      <option ng-value="{name:'Plant Bonus Damage', value:''}">Plant Bonus Damage</option>
+      <option ng-value="{name:'Plant Attack', value:''}">Plant Attack(%)</option>
+      <option ng-value="{name:'Plant Damage Reduction', value:''}">Plant Damage Reduction</option>
+
+      <option ng-value="{name:'Insect Bonus Damage', value:''}">Insect Bonus Damage(%)</option>
+      <option ng-value="{name:'Insect Attack', value:''}">Insect Attack(%)</option>
+      <option ng-value="{name:'Insect Damage Reduction', value:''}">Insect Damage Reduction</option>
+
+      <option ng-value="{name:'Beast Bonus Damage', value:''}">Beast Bonus Damage(%)</option>
+      <option ng-value="{name:'Beast Attack', value:''}">Beast Attack(%)</option>
+      <option ng-value="{name:'Beast Damage Reduction', value:''}">Beast Damage Reduction(%)</option>
+
+      <option ng-value="{name:'Humanoid Bonus Damage', value:''}">Humanoid Bonus Damage(%)</option>
+      <option ng-value="{name:'Humanoid Attack', value:''}">Humanoid Attack(%)</option>
+      <option ng-value="{name:'Humanoid Damage Reduction', value:''}">Humanoid Damage Reduction(%)</option>
+
+      <option ng-value="{name:'Undead Bonus Damage', value:''}">Undead Bonus Damage(%)</option>
+      <option ng-value="{name:'Undead Attack', value:''}">Undead Attack(%)</option>
+      <option ng-value="{name:'Undead Damage Reduction', value:''}">Undead Damage Reduction(%)</option>
+
+      <option ng-value="{name:'Demon Bonus Damage', value:''}">Demon Bonus Damage(%)</option>
+      <option ng-value="{name:'Demon Attack', value:''}">Demon Attack(%)</option>
+      <option ng-value="{name:'Demon Damage Reduction', value:''}">Demon Damage Reduction(%)</option>
+
+      <option ng-value="{name:'Mutant Bonus Damage', value:''}">Mutant Bonus Damage(%)</option>
+      <option ng-value="{name:'Mutant Attack', value:''}">Mutant Attack(%)</option>
+      <option ng-value="{name:'Mutant Damage Reduction', value:''}">Mutant Damage Reduction(%)</option>
+
+      <option ng-value="{name:'Magic-type Bonus Damage', value:''}">Magic-type Bonus Damage(%)</option>
+      <option ng-value="{name:'Magic-type Attack', value:''}">Magic-type Attack(%)</option>
+      <option ng-value="{name:'Magic-type Damage Reduction', value:''}">Magic-type Damage Reduction(%)</option>
+    </select>
+  </form>
+  </td>
+  <td style="vertical-align:top">
+
+    <div ng-repeat="stat in data.statSelect">
+    {{stat.name}}:
+    	<input type="text" data-ng-model="stat.value" ng-change="changeAffix()" title="Please input the value only (e.g. 4,550 or 5.00)!" /><br/>
+    </div>
+    Unfixed affixes:
+    <input type="text" data-ng-model="data.unfixed" readonly/><br/>
+    </td>
+    <td style="vertical-align:top">
+    </td>
+    <td style="vertical-align:top">
+    <textarea id="pushList" ng-if="data.canPush" readonly></textarea>
+    </td>
+    </tr>
+   </tbody>
+  </table>
+</span>
+<form action="https://formspree.io/mulegenddb1@null.net"
+      method="POST" ng-if="data.canPush">
+    <textarea name="Main" id="soleItem" style="width: 400px; height: 400px;" readonly>{
+    "name": "{{data.item.name}}",
+    "tags": {{data.tagSelect | json}},
+    "stats": {{data.statSelect | json}}
+}</textarea><button ng-click="pushItem()" >Push Item</button>
+</form>
+
+</div>
+</body>
